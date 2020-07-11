@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <link rel="stylesheet" href="../css/estilofactura.css">
+</head>
+<body>
+
+    <ul>
+        <li ><a href="../index.html">Inicio</a></li>
+        <li ><a href="bueno.html">¿por que es bueno?</a></li>
+        <li ><a href="menu.html">Menu</a></li>
+        <li ><a href="contactos.html">¿donde nos puedes encontrar?</a></li>
+        <li ><a href="contactanos.html">Contactanos</a></li>
+        <li><a href="chat.html">chat en vivo</a></li>
+        <li><a href="factura.html">facturacion</a></li>
+        <li><a href="catalogo.html">catalogo</a></li>
+    </ul>
+    <div class="color">
+        <h1>Nueva factura</h1>
+    
+        <fieldset><legend><h2>Datos del cliente:</h2></legend>
+        <div class="grupo">
+            <label for="txtNombre">Nombre :</label>
+            <input type="text" class="grupo" id="txtNombre" placeholder="Agregar nombre">
+        
+        
+        
+            <label for="txtApellidos">Apellidos :</label>
+            <input type="text" class="grupo" id="txtApellidos" placeholder="Digite apellidos">
+        </div>
+    
+        <p></p>
+    
+        <div class="grupo">
+            <label for="txtDireccion">Direccion :</label>
+            <input type="text" class="grupo" id="txtDireccion" placeholder="Agregar su direccion">
+        
+    
+        
+            <label for="txtID">ID :</label>
+            <input type="text" class="grupo" id="txtID" placeholder="Digite su documento ">
+        </div>
+    
+        <p></p>
+    
+        <div class="grupo">
+            <label for="txtTelefono">Telefono :</label>
+            <input type="text" class="grupo" id="txtTelefono" placeholder="Digite su telefono">
+    
+            <label for="txtEdad">Edad :</label>
+            <input type="text" class="grupo" id="txtEdad" placeholder="Agregue su edad">
+    
+            <label for="txtNIF">NIF :</label>
+            <input type="text" class="grupo" id="txtNIF" placeholder="Digite si NIF">
+        </div>
+    
+        <p></p>
+    
+        <div class="grupo">
+            <label for="txtBarrio">Barrio :</label>
+            <input type="text" class="grupo" id="txtBarrio" placeholder="Digite su Barrio">
+        </div>
+    
+    </fieldset>
+    
+        <fieldset><legend><h2>Menu:</h2></legend> 
+            <form>
+            <label for="">Ajiaco con pollo :</label>
+            <input type="text" id="txtAjiaco" placeholder="Cuantos quiere?">
+            <p></p>
+            <label for="">Bandeja Paisa :</label>
+            <input type="text" id="txtBandeja" placeholder="Cuantos quiere?">
+            <p></p>
+            <label for="">Patarasca :</label>
+            <input type="text" id="txtPatrasca" placeholder="Cuantos quiere?" >
+            <p></p>
+            <label for="">Sancocho :</label>
+            <input type="text" id="txtSancocho" placeholder="Cuantos quiere?" >
+            <p></p>
+            <label for="">Mondongo :</label>
+            <input type="text" id="txtMondongo" placeholder="Cuantos quiere?" >
+            <p></p>
+            <label for="">Platanos rellenos :</label>
+            <input type="text" id="txtPlatanos" placeholder="Cuantos quiere?">
+            <p></p>
+            <label for="txtPostre">Postre de coco :</label>
+            <input type="text" id="txtPostre" placeholder="Cuantos quiere?" >
+    
+            <p></p>
+    
+            <h2>Comentario del pedido</h2>
+            <br>
+            <textarea name="area_de_texto" id="txtcomentario" rows="3" cols="50"></textarea>
+    
+            <p></p>
+    
+            <input type="button" value="Calcular" onclick="Procesar()">
+            </form> 
+            <p></p>
+    
+    
+    </fieldset>
+    
+    <fieldset>
+              <legend>Final :</legend>
+              <button type="button" class="boton" id="btnGuardar">Enviar</button>
+            </fieldset>
+    
+    
+            <div class="color"><i>Restaurante el Campo - Pag 7</i></div><footer></footer>
+    </div>
+    
+    <div class="color">
+        <h2>Anteriores pedidos</h2>
+        <table class="tabla" id="tablaclientes">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Direccion</th>
+                    <th>ID</th>
+                    <th>Telefono</th>
+                    <th>Edad</th>
+                    <th>NIF</th>
+                    <th>Barrio</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+    </div>
+    <script src="../js/facturacion1.js"></script>
+    <script src="../js/facturacion2.js"></script>
+    
+    </body>
+    </html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icont" type="imagen/png" href="../img/shop.png">
+    <title>contactanos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    
+    
+   
+    <ul>
+        <li ><a href="../index.html">Inicio</a></li>
+        <li ><a href="bueno.html">¿por que es bueno?</a></li>
+        <li ><a href="menu.html">Menu</a></li>
+        <li ><a href="contactos.html">¿donde nos puedes encontrar?</a></li>
+        <li ><a href="contactanos.html">Contactanos</a></li>
+        <li><a href="chat.html">chat en vivo</a></li>
+        <li><a href="factura.html">facturacion</a></li>
+        <li><a href="catalogo.html">catalogo</a></li>
+    </ul>
+
+    <header><center><img src="../img/6.png"width="400"  ></center></header>
+    <div class="contenedor2">
+        <table border="0">
+            <tr>
+                <td><img src="../img/7.png"width="550" height="340" ></td>
+                <td>
+                    <label>Nombre</label> <br>
+                    <input type="text" id="NOMBRE"><br>
+                    <label >Apellido:</label><br>
+                    <input type="text" id="Apellido"><br>
+                    <label >Nacionalidad:</label><br>
+                    <select id="pais">
+                        <option value="Colombia">Colombia</option> 
+                        <option value="Antigua y Barbuda" >Antigua y Barbuda</option>
+                        <option value="Aruba">Aruba</option>
+                        <option value="Bahamas">Bahamas</option> 
+                        <option value="Argentina" >Argentina</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Perú">Perú</option> 
+                        <option value="Dominica" >Dominica</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Venezuela">Venezuela</option> 
+                        <option value="México" >México</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Jamaica">Jamaica</option> 
+                        <option value="Puerto Rico" >Puerto Rico</option>
+                        
+                      </select> <br>
+
+                     <label>edad</label><br>
+                     <input type="number" id="edad" min="10" max="99"required="required"><br>
+                    <label >Sexo:</label><br>
+                    <input type="radio" id="sexo" value="hombre" /> Hombre
+                    <input type="radio" id="sexo" value="mujer" /> Mujer <br>
+                    <label >fecha de nacimient:</label><br>
+                    <input type="date" id="naci"><br>
+                    <label >estado civil:</label><br>
+                    <input type="radio" id="civil" value="Casado(a)" /> Casado(a)
+                    <input type="radio" id="civil" value="soltero(a)" /> soltero(a) <br>
+                    <label >Correo electronico:</label><br>
+                    <input type="email" id="direccionemail" placeholder="Ej.: usuario@servidor.com" ><br>
+                    <label >telefono fijo</label><br>
+                    <input type="tel" id="telefono"><br>
+                    <label >celular</label><br>
+                    <input type="tel" id="celular"><br>
+                    <label >Estrato:</label><br>
+                    <input type="number" id="estrato" min="1" max="7"><br>
+                    <label>No. Identidad</label><br>
+                    <input type="tel"id="Identidad"><br>
+                    <label>direccion:</label><br>
+                    <input type="tel" id="Direccion"><br>
+                    <label>religion:</label><br>
+                    <select id="religion" >
+                        <option value="Cristianismo">Cristianismo</option> 
+                        <option value=" Islam" > Islam </option>
+                        <option value="Agnosticismo">Agnosticismo</option>
+                        <option value="Hinduismo">Hinduismo</option> 
+                        <option value="Budismo">Budismo </option>
+                        <option value="Judaísmo">Judaísmo</option> 
+                        <option value="catolicismo" >catolicismo</option>
+                    </select> <br>
+                    <label >tipo de sangre</label><br>
+                    <input type="text"id="sangre"><br>
+                    <br>
+                    <input type="submit" id="botonregistara">
+
+                   
+
+                 </td>
+                 
+
+
+            </tr>
+            
+               
+
+
+
+        </table>
+    </div>
+    <div class="contenesorr">
+    <table border="1" id="tblaRegistro">
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>Apellido</th>
+                <th>Nacionalidad</th>
+                <th>edad</th>
+                <th>sexo</th>
+                <th>Fecha de nacimiento</th>
+                <th>estado civil</th>
+                <th>correo electronico</th>
+                <th>telefono fijo</th>
+                <th>celular</th>
+                <th>estrato</th>
+                <th>No. Identidad</th>
+                <th>direccion</th>
+                <th>religion</th>
+                <th>tipo de sangre</th>
+                <th>seleccion</th>
+             </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+</div>
+    <script src="../js/tablaRegistrocontac.js"></script>
+    <script src="../js/guardar_registro.js"></script>
+      
+    
+    <footer class="pie"><i>Restaurante el Campo - Pag 5</i></footer>
+    
+</body>
+</html>

@@ -1,0 +1,126 @@
+body {
+    background: url("../img/i13.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ody {
+    background: url("../img/i13.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+li{
+    float: left;
+}
+li a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover{
+    background-color: #111;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    padding: 60px;
+    background: black;
+    margin-top: 100px;
+    border-top: 6px;
+}
+
+.container img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.container p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.container2 {
+    width: 100%;
+    max-width: 1000px;
+    padding: 60px;
+    background: black;
+    margin-top: 100px;
+    border-top: 6px;
+}
+
+.container2 img{
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.container2 p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.container3 {
+    width: 100%;
+    max-width: 1000px;
+    padding: 60px;
+    background: black;
+    margin-top: 100px;
+    border-top: 6px;
+}
+
+.container3 img{
+    width: 100px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.container3 p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.container4 {
+    width: 100%;
+    max-width: 1000px;
+    padding: 60px;
+    background:black;
+    margin-top: 100px;
+    border-top: 6px;
+}
+
+.container4 img{
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.container4 p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.color{
+    color: white;
+}
